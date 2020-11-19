@@ -3,7 +3,7 @@ import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNav
 MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 
-class navbar extends Component {
+class Navbar extends Component {
 state = {
   isOpen: false
 };
@@ -77,4 +77,4 @@ render() {
   }
 }
 
-export default navbar;
+export default Navbar;
