@@ -2,17 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-<<<<<<< HEAD
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
 import 'bootstrap-css-only/css/bootstrap.min.css'; 
 import 'mdbreact/dist/css/mdb.css';
-=======
+
+
 import * as serviceWorker from './serviceWorker';
 import '@fortawesome/fontawesome-free/css/all.min.css';  
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css'
->>>>>>> 442023d6e51f31c11febeac3b0bfb087baa6052b
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -24,7 +22,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
-<<<<<<< HEAD
-=======
-serviceWorker.unregister();
->>>>>>> 442023d6e51f31c11febeac3b0bfb087baa6052b
+
