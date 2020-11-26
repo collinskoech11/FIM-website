@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default function Home() {
-    return (
-        <div>
-            
-        </div>
-    )
+export class Home extends Component {
+    render() {
+        return (
+            <div>
+                
+            </div>
+        )
+    }
 }
+
+export default Home
+
